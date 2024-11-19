@@ -141,6 +141,7 @@ function test_installation() {
 
   echo "$($TEXT_COLOR $CYAN)Go${RESET} ($VERSION) has been installed $($TEXT_COLOR $GREEN)successfully!${RESET}"
   echo "Open a new terminal(to re login) or you can do: $($TEXT_COLOR $YELLOW)source $HOME/.${shell_profile}${RESET}"
+  source $HOME/.${shell_profile}
 }
 
 function install_go() {
